@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6df211d8d597bd7055a5815f869bfd9",
+    "content-hash": "82498c8ceb66b47cd43c8f8912baa304",
     "packages": [
         {
             "name": "smtxdev/hostmanager",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/smtxdev/hostmanager",
-                "reference": "c56e65d0161d383800d3b55997a3c92ccad94ea2"
+                "url": "https://github.com/smtxdev/hostmanager.git",
+                "reference": "bb8fa455546e3a63c36420c9b9fa507c8e21b843"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smtxdev/hostmanager/zipball/bb8fa455546e3a63c36420c9b9fa507c8e21b843",
+                "reference": "bb8fa455546e3a63c36420c9b9fa507c8e21b843",
+                "shasum": ""
             },
             "require": {
                 "symfony/console": "^4.2"
@@ -23,13 +29,17 @@
             "type": "project",
             "autoload": {
                 "psr-4": {
-                    "SmtXDev\\DockerHostManager\\": "src/"
+                    "SmtXDev\\HostManager\\": "src/"
                 }
             },
             "license": [
                 "MIT"
             ],
-            "time": "2019-05-16T09:49:25+00:00"
+            "support": {
+                "source": "https://github.com/smtxdev/hostmanager/tree/master",
+                "issues": "https://github.com/smtxdev/hostmanager/issues"
+            },
+            "time": "2019-05-17T09:11:01+00:00"
         },
         {
             "name": "symfony/console",
