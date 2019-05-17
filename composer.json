@@ -3,10 +3,7 @@
     "license": "MIT",
     "type": "project",
     "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/smtxdev/hostmanager"
-        }
+        { "type": "vcs", "url": "https://github.com/smtxdev/hostmanager" }
     ],
     "require": {
         "smtxdev/hostmanager": "dev-master"
