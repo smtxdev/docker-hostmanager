@@ -15,7 +15,7 @@ That guide describes as well how to setup docker that it get's access to `c:/Win
 ## Usage without docker-compose
 
 ```
-docker run -v /:/host/ hostmanager-dummy --hostnames abc.de
+docker run -v /:/host/ smtxdev/hostmanager --hostnames abc.de
 ```
 
 ## Usage with docker-compose
@@ -60,5 +60,5 @@ All parameters of https://github.com/smtxdev/hostmanager can be passed as env-va
 See for all parameters:
 
 ```
-docker run -v /:/host/ hostmanager-dummy --help
+docker run -v /:/host/ smtxdev/hostmanager --help
 ```
