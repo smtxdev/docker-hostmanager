@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/smtxdev/hostmanager.git",
-                "reference": "bb8fa455546e3a63c36420c9b9fa507c8e21b843"
+                "reference": "d3e4ac1184718354c5a7739537adaec356005b5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smtxdev/hostmanager/zipball/bb8fa455546e3a63c36420c9b9fa507c8e21b843",
-                "reference": "bb8fa455546e3a63c36420c9b9fa507c8e21b843",
+                "url": "https://api.github.com/repos/smtxdev/hostmanager/zipball/d3e4ac1184718354c5a7739537adaec356005b5f",
+                "reference": "d3e4ac1184718354c5a7739537adaec356005b5f",
                 "shasum": ""
             },
             "require": {
@@ -39,7 +39,7 @@
                 "source": "https://github.com/smtxdev/hostmanager/tree/master",
                 "issues": "https://github.com/smtxdev/hostmanager/issues"
             },
-            "time": "2019-05-17T09:11:01+00:00"
+            "time": "2019-05-23T08:12:59+00:00"
         },
         {
             "name": "symfony/console",
