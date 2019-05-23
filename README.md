@@ -29,7 +29,7 @@ Here very brief the needed steps. See that guide above for more details:
 ## Usage via docker run
 
 ```
-docker run -v /:/host/ smtxdev/hostmanager --hostnames abc.de
+docker run -v /:/host/ smtxdev/hostmanager --hostnames example1.de,example2.de
 ```
 
 ## Usage via docker-compose
@@ -40,7 +40,7 @@ docker run -v /:/host/ smtxdev/hostmanager --hostnames abc.de
     image: smtxdev/hostmanager
     restart: "no"
     environment:
-      HOSTMANAGER_HOSTNAMES: "example.de"
+      HOSTMANAGER_HOSTNAMES: "example1.de,example2.de"
     volumes:
       - /:/host/
 ```
@@ -59,7 +59,7 @@ If you already have an `.env` file next to your `docker-compose.yml` then you ca
 In your `.env` file:
 
 ```
-HOSTMANAGER_HOSTNAMES: "example.de"
+HOSTMANAGER_HOSTNAMES: "example1.de,example2.de"
 
 # Use for Windows = /c/ and for Mac/Linux = /
 HOSTMACHINE_MAIN_DRIVE_ROOT=/
