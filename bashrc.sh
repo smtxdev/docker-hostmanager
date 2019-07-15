@@ -19,3 +19,7 @@ fi
 if [ -z "$HOSTMANAGER_HOSTSFILE" ]; then
     export HOSTMANAGER_HOSTSFILE="/host/Windows/System32/drivers/etc/hosts,/host/private/etc/hosts,/host/etc/hosts"
 fi
+
+if [ -z "$HOSTMANAGER_HOSTNAME_MATCH_PATTERN" ]; then
+    export HOSTMANAGER_HOSTNAME_MATCH_PATTERN="/^(SERVER_NAME_\d+?|SOLR_NAME)$/smi"
+fi
